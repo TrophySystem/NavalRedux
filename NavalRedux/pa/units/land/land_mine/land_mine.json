@@ -1,8 +1,9 @@
 {
   "TEMP_texelinfo": 2.37699,
   "area_build_separation": 1.0,
-  "build_metal_cost": 20,
-  "description": "Mine: Detonates when enemy combat units get too close",
+  "area_build_type":"Sphere",
+  "build_metal_cost": 40,
+  "description": "Mine: Invisible explosive detonated by enemy proximity",
   "display_group": 50,
   "display_index": 40,
   "display_name": "Mine",
@@ -24,8 +25,12 @@
   ],
   "model": [
     {
-      "filename": "/pa/units/land/land_mine/land_mine.papa",
-      "layer": "WL_AnyHorizontalGroundOrWaterSurface"
+        "layer": "WL_LandHorizontal",
+        "filename": "/pa/units/land/land_mine/land_mine.papa"
+    },
+    {
+        "layer": "WL_WaterSurface",
+        "filename": "/pa/units/sea/sea_mine/sea_mine.papa"
     }
   ],
   "physics": {
@@ -39,6 +44,7 @@
   "recon": {
     "observable": {
       "ignore_sight": true,
+      "ignore_radar": true,
       "layer": "surface_and_air"
     },
     "observer": {

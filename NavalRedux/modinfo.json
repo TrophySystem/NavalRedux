@@ -4,7 +4,7 @@
     "display_name": "NavalRedux",
     "description": "Complete Rebalance And Expansion to Naval as First Class Citizen.",
     "author": "Stuart98, SquishyPon3, TrophySystem, zx0, ZombieFan564",
-    "version": "1.12",
+    "version": "1.5",
     "build": "70289",
     "date": "2014/8/10",
     "signature": "not yet implemented",
@@ -12,7 +12,13 @@
     "id": "NavalRedux",
     "priority": 100,
     "icon": "http://pamods.github.io/icons/NavalReduxIcon.png",
-    "enabled": true,
+    "enabled": false,
     "dependencies": [
-        "com.uberent.pa.mods.stockmods.client.NavalReduxIcons"]
+        "com.uberent.pa.mods.stockmods.client.NavalReduxIcons"
+    ],
+    "content_id": "com.uberent.pa.mods.stockmods.server.NavalRedux",
+    "store_id": "com.pahub.content.plugin.store.mod.server",
+    "required": {
+        "com.uberent.pa.mods.stockmods.client.NavalReduxIcons": "*"
+    }
 }
