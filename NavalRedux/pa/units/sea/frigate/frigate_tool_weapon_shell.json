@@ -6,7 +6,7 @@
   "max_range": 160,
   "pitch_range": 40,
   "pitch_rate": 360,
-  "rate_of_fire": 2,
+  "rate_of_fire": 4,
   "arc_type":"ARC_Low",
   "target_layers": [
     "WL_LandHorizontal",
