@@ -19,6 +19,7 @@
     "WL_Seafloor",
     "WL_WaterSurface"
   ],
+  "target_priorities":["Naval - Advanced","Structure"],
   "yaw_range": 0,
   "yaw_rate": 0
 }
