@@ -11,7 +11,7 @@
     "forum": "https://forums.uberent.com/threads/wip-totalredux.67970/",
     "id": "TotalRedux",
     "priority": 100,
-    "icon": "http://pamods.github.io/icons/TotalReduxIcon.png",
+    "icon": "https://github.com/TrophySystem/NavalRedux/raw/master/TotalReduxIcon.png",
     "enabled": true,
     "content_id": "com.pa.mods.server.TotalRedux",
     "store_id": "com.pahub.content.plugin.store.mod.server"
